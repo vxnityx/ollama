@@ -8,4 +8,4 @@ RUN ollama serve & \
 
 EXPOSE 11434
 
-CMD ollama serve
+CMD ["ollama", "serve"]
